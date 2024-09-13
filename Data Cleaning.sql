@@ -13,8 +13,9 @@ ON market.market_segment = hotels.market_segment
 LEFT JOIN dbo.meal_cost AS meal
 ON meal.meal = hotels.meal
 
--- [Query 1 Results]()
+-- Query 1 Results: https://github.com/mlund2k/Hotel-Revenue-Analysis/blob/main/Query1%20Results.csv
 
+	
 -- I want to create a column for revenue that can be compared between each type of hotel in each year to investigate the first business objective early:
 SELECT hotel AS [Hotel Type],
 	arrival_date_year AS Year,
@@ -23,4 +24,5 @@ FROM hotels
 GROUP BY hotel, arrival_date_year
 ORDER BY hotel, year
 
--- [Query 2 Results]()
+-- Query 2 Results: https://github.com/mlund2k/Hotel-Revenue-Analysis/blob/main/Query2%20Results.csv
+-- Based on the query results, I can expect to see an overall positive trend in revenue from either hotel type
