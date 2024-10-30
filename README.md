@@ -13,6 +13,8 @@ Its 2020 and a hotel manager is interested in the current financial standing of 
 
 ## Process
 
+![image](https://github.com/user-attachments/assets/3b4c99d3-a23c-4856-ab33-1b7c53345de6)
+
 I first downloaded the [Dataset](https://www.kaggle.com/datasets/govindkrishnadas/hotel-revenue/data) through Kaggle, then imported it directly into Microsoft SQL Server via the import wizard.
 
 - Raw Data File: [hotel_revenue_historical_full.xlsx](https://github.com/mlund2k/Hotel-Revenue-Analysis/blob/main/hotel_revenue_historical_full.xlsx)
